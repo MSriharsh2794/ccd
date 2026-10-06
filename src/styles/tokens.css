@@ -1,0 +1,68 @@
+:root {
+  --ccd-red: #8d1a1c;
+  --ccd-red-hover: #a52629;
+  --ccd-red-light: #c94a4d;
+  --ccd-red-subtle: #351719;
+  --ccd-charcoal: #1d1e23;
+  --ccd-black: #111216;
+  --ccd-white: #f8f4ed;
+
+  --color-background: #111216;
+  --color-surface: #1d1e23;
+  --color-surface-elevated: #26272d;
+  --color-surface-hover: #303138;
+  --color-text-primary: #f8f4ed;
+  --color-text-secondary: #b8b8c0;
+  --color-text-muted: #85858f;
+  --color-text-inverse: #ffffff;
+  --color-border: #383940;
+  --color-border-strong: #50515a;
+  --color-success: #3baa75;
+  --color-warning: #e6a23c;
+  --color-error: #e05252;
+
+  --font-primary: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --text-xs: .75rem;
+  --text-sm: .875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.5rem;
+  --text-hero: clamp(2.75rem, 6vw, 4.5rem);
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+  --radius-full: 9999px;
+  --shadow-card: 0 8px 30px rgba(0, 0, 0, .25);
+  --shadow-glow: 0 0 24px rgba(141, 26, 28, .18);
+  --container-width: 1280px;
+  --header-height: 72px;
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+
+  --ink: var(--color-text-primary);
+  --green: var(--ccd-red-light);
+  --lime: var(--ccd-red);
+  --orange: var(--ccd-red-light);
+  --line: var(--color-border);
+  --font-display: var(--font-primary);
+}

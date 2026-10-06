@@ -1,0 +1,32 @@
+@import './styles/tokens.css';
+
+:root {
+  font-family: var(--font-primary);
+  color: var(--color-text-primary);
+  background: var(--color-background);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--color-background);
+}
+
+button, input { font: inherit; }
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--ccd-red-light);
+  outline-offset: 3px;
+}
+
+::selection { background: var(--ccd-red); color: var(--color-text-inverse); }
